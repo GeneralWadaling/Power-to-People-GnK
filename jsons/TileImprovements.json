@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Solar Plant",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"turnsToBuild": 5,
+		"techRequired": "Ecology",
+		"uniques": ["Provides [1] [Power]"],
+	},
+	{
+		"name": "Wind Farm",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 5,
+		"techRequired": "Ecology",
+		"uniques": ["Provides [1] [Power]"],
+	},
+	{
+		"name": "Charcoal Kiln",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"food": -1,
+		"production": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Industrialization",
+		"uniques": ["Provides [1] [Coal]"],
+	},
+]

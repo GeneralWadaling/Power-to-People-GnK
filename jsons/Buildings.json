@@ -1,0 +1,122 @@
+[
+	{
+		"name": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 5},
+		"specialistSlots": {"Engineer": 1},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"uniques": ["Only available <in cities without a [Manufacturing Plant]>"],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredResource": "Power",
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Hydro Plant",
+		"requiredBuilding": "Workshop",
+		"requiredResource": "Aluminum",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": ["Provides [3] [Power]", "Must be on [River]"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Coal Power Plant",
+		"cost": 360,
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Coal"],
+		"requiredResource": "Coal",
+		"uniques": ["Provides [4] [Power]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Oil Power Plant]>"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Stadium",
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredResource": "Power",
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Broadcast Tower",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"requiredResource": "Power",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Manufacturing Plant",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredResource": "Power",
+		"uniques": ["Only available <in cities without a [Factory]>"],
+		"requiredTech": "Replaceable Parts"
+	},
+	{
+		"name": "Oil Power Plant",
+		"cost": 360,
+		"requiredBuilding": "Workshop",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Oil"],
+		"requiredResource": "Oil",
+		"uniques": ["Provides [5] [Power]", "Only available <in cities without a [Nuclear Plant]>", "Only available <in cities without a [Coal Power Plant]>"],
+		"requiredTech": "Combustion"
+	},
+	{
+		"name": "Research Lab",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"requiredResource": "Power",
+		"maintenance": 3,
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Medical Lab",
+		"requiredBuilding": "Hospital",
+		"maintenance": 3,
+		"requiredTech": "Pharmaceuticals",
+		"requiredResource": "Power",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Nuclear Plant",
+		"maintenance": 4,
+		"requiredNearbyImprovedResources": ["Uranium"],
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Provides [8] [Power]", "Only available <in cities without a [Coal Power Plant]>", "Only available <in cities without a [Oil Power Plant]>"]
+	},
+	{
+		"name": "Semiautomatic Factory",
+		"production": 6,
+		"percentStatBonus": {"production": 15},
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredResource": "Power",
+		"requiredTech": "Computers"
+	}
+]
